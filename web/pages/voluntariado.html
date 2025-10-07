@@ -41,14 +41,41 @@
         <li><h3>
             Cadastre-se!
         </h3></li>
-        <p><ul>
-            <!-- Eu irei expandir essa parte de dados pessoais depois-->
-            <li>Dados Pessoais</li>
-            <li>Habilidades específicas</li>
-            <li>Disponibilidade</li>
-            <li>Experiência prévia</li>
-            <li>Motivação</li>
-        </ul></p>
+        <!-- Eu irei expandir essa parte de dados pessoais depois  Habilidades específicas
+            Disponibilidade
+            Experiência prévia
+            Motivação-->
+        <form>
+            <label for="usuario">Insira o seu nome: </label>
+            <input type="text" name="nome" placeholder="Seu nome" 
+            required minlength="4" maxlength="25" pattern="[a-zA-ZÀ-ÿ\s]{3,50}"
+            title="Apenas letras e espaços. Mínimo 3 caracteres e máximo 50"/>
+
+            <label for="usuario">Insira o seu email: </label>
+            <input type="email" name="email" placeholder="Email" 
+            required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Digite um e-mail válido, ou seja, que possui nome@dominio"/><br>
+
+            <label for="usuario">Insira o seu Telefone: </label>
+            <input type="tel" name="tel" placeholder="(11) 99999-9999" 
+            required pattern="(\([0-9]{2}\)\s?)?[0-9]{4,5}-?[0-9]{4}"
+            title="Insira um telefone no formato (XX) 9XXXX-XXXX"/>
+
+            <label for="usuario">Insira o seu CPF: </label>
+            <input type="number" name="number" placeholder="000.000.000-00" 
+            required pattern="[0-9]{3}[0-9]{3}[0-9]{3}-[0-9]{2}"
+            title="Insira o CPF no formato XXX.XXX.XXX-XX"/><br>
+
+            <label for="usuario">Insira o seu CEP: </label>
+            <input type="number" name="number" placeholder="00000-000" 
+            required pattern="[0-9]{5}-?[0-9]{3}"
+            title="Insira o CEP no formato XXXXX-XXX"/><br>
+
+            <label for="usuario">Insira a sua data de nascimento: </label>
+            <input type="date" name="nascimento" required/><br>
+
+            <button type="submit">Cadastrar</button>
+        </form>
 
         <li><h3>
             Depoimentos de Voluntários
