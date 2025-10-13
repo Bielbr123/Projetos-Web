@@ -1,0 +1,24 @@
+.header{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: #fcfcfc;
+    background-image: url("C:/Users/augus/Desktop/Gabriel/cruzeiro_do_sul/web/temp/gettyimages-1325062494-640x640.jpg");
+    padding: 25px;
+    /*opacity: 1;*/
+    /*background-color: #4a7c45;*/
+}
+
+#main1{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5dc;
+}

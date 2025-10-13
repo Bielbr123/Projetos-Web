@@ -1,0 +1,32 @@
+projeto/
+├── index.html
+├── pages/
+│   ├── sobre.html
+│   ├── projetos.html
+│   └── ...
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   ├── videos/
+│   └── audio/
+└── docs/
+    ├── wireframes/
+    └── especificacoes/
+
+[07:43, 02/10/2025] Gabriel Lyra: Site bom para me basear e fazer o meu projeto
+[08:08, 02/10/2025] Gabriel Lyra: Após o texto explicativo, eu posso fazer um retângulo um em baixo do outro, colocando o acesso para as outras 7 páginas
+[08:09, 02/10/2025] Gabriel Lyra: Em cima tem um botão para acessar as outras áreas do texto. Eu posso fazer o mesmo
+[08:10, 02/10/2025] Gabriel Lyra: Posso fazer uma hierarquia do site e postar no LinkedIn
+[08:17, 02/10/2025] Gabriel Lyra: Os inputs podem estar no “cadastro de voluntários”
+[08:18, 02/10/2025] Gabriel Lyra: Contato institucional na página “Contatos”
+[08:18, 02/10/2025] Gabriel Lyra: Newsletters na parte de blogs/notícias
+
+Link para o site referência:
+https://pactocontrafome.org/filantropia-no-brasil/
+
+Tutorial:
+https://www.homehost.com.br/blog/tutoriais/tags-html/
+
+Link da imagem "plantar árvore":
+https://www.istockphoto.com/br/foto/close-up-mulher-plantando-um-abeto-jovem-na-floresta-colocando-o-no-ch%C3%A3o-gm1466653322-498610868
