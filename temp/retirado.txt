@@ -1,0 +1,17 @@
+<div><p>
+Cada hectare devastado representa menos água, mais aquecimento e um futuro mais frágil para as próximas gerações.<br>
+O Brasil possui a chave para um desenvolvimento sustentável, mas estamos diante de uma encruzilhada: continuar testemunhando
+a destruição ou assumir nossa rsesponsabilidade como guardiões das maiores florestas tropicais do mundo.
+A hora de agir é agora.
+</p></div>
+
+        <h2>Desafios do Reflorestamento no Brasil</h2>
+        <p>Restaurar nossas florestas vai muito além de simplesmente plantar mudas. Enfrentamos obstáculos complexos que exigem soluções
+            integradas e perseverança. A regeneração de áreas degradadas esbarra na escassez de mudas nativas adequadas para cada bioma, 
+            na dificuldade de acesso a áreas remotas e na manutenção dos plantios em seus anos críticos iniciais.<br>
+            Somam-se a isso a competição com espécies invasoras, a necessidade de envolvimento das comunidades locais e a pressão de
+            atividades econômicas que continuam avançando sobre novas áreas. Cada projeto de reflorestamento é uma corrida contra o tempo
+            e contra as ameaças que persistem mesmo após o plantio.<br>
+            Superar esses desafios exige não apenas recursos financeiros, mas conhecimento técnico, monitoramento constante e um compromisso
+            de longo prazo com cada centímetro de terra que buscamos recuperar.
+        </p>
