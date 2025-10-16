@@ -1,0 +1,96 @@
+/* === LAYOUT.CSS === */
+*{
+    box-sizing: border-box;
+}
+/* ESTRUTURAS FLEXBOX */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+#main1, #main2, .B1, .B2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#main2, .B2 {
+    flex-direction: row;
+}
+
+.B1 {
+    flex-direction: row;
+}
+
+/* SISTEMA DE GRID/COLUNAS */
+.coluna-50 {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.colunasB2 {
+    width: 50%;
+    min-height: 300px;
+}
+
+#idColunasB2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.content-box1, .content-box2, .content-box3 {
+    width: 33.32%;
+    align-items: center;
+    text-align: center;
+}
+
+/* LAYOUT DE IMAGENS */
+.colunasB2 picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.colunasB2 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.imagem_quebra {
+    display: flex;
+}
+
+/* ALINHAMENTOS DE TEXTO */
+.titulo_projetos {
+    text-align: center;
+}
+
+.content-box1, .content-box2, .content-box3 {
+    text-align: center;
+}
+
+#main2, .B2 {
+    text-align: justify;
+}
+
+.footer_title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+*{
+    font-family: var(--fonte);
+}
+
+.header{
+    background-image: url("../imagens/usada_header_gettyimages-1325062494-640x640.jpg");
+    height: 250px;
+    width: 100%;
+}
+
+.header img {
+    max-width: 150px; /* ← AJUSTE CONFORME SUA IMAGEM */
+    height: auto;
+}
+

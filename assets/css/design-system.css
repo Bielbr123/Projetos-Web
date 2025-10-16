@@ -1,0 +1,28 @@
+:root{
+    /* Cores */
+    --verde-principal: #2d5a27;
+    --verde-claro: rgba(173, 223, 173, 0.5);
+    --marrom-escuro: #6b4f2f;
+    --bege-natural: rgb(245, 245, 220);
+    --branco: #ffffff;
+    --preto: #000000;
+
+
+    /* Tipografia */
+    --fonte-titulo: 2.5rem;
+    --fonte-subtitulo: 2rem;
+    --fonte-secao: 1.5rem;
+    --fonte-corpo: 1rem;
+    --fonte-pequena: 0.875rem;
+
+    /* Espaçamento Modular */
+    --espaco-xs: 0.5rem;   /* 8px */
+    --espaco-sm: 1rem;     /* 16px */
+    --espaco-md: 1.5rem;   /* 24px */
+    --espaco-lg: 2rem;     /* 32px */
+    --espaco-xl: 3rem;     /* 48px */
+    --espaco-xxl: 4rem;    /* 64px */
+
+    /* Fontes */
+    --fontes: monospace, Arial, sans-serif, 'Segoe UI';
+}

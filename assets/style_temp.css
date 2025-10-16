@@ -1,5 +1,9 @@
+body {
+
+    font-family: var(--fonte-family)
+}
 .header{
-    font-family: monospace, Arial, sans-serif, 'Segoe UI';
+
     width: auto;
     height: auto;
     display: flex;
@@ -16,7 +20,6 @@
 }
 
 #main1{    
-    font-family: monospace, Arial, sans-serif, 'Segoe UI';
     font-size: 20px;
     justify-content: center;
     color: #000000;
@@ -88,19 +91,24 @@
     line-height: 1.6;
     text-align: justify;
     flex-flow: row wrap;
-    flex-direction: row;
+    flex-direction: row;    
     background-color: rgba(173, 223, 173, 0.5);
+    overflow: hidden;
 }
 
 .colunasB2{
     width: 50%;
+    min-height: 300px;
+
 }
 
 .colunasB2 picture{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 50%;
 }
 
 .colunasB2 img {
@@ -108,6 +116,7 @@
     height: auto;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 .imagem_quebra{
@@ -119,7 +128,8 @@
 .titulo_projetos{
     font-family: monospace, Arial, sans-serif, 'Segoe UI';
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
+    background-color: rgb(245, 245, 220);
 }
 .container-box{
     height: auto;
@@ -129,10 +139,12 @@
     align-items: center;
     flex-flow: row wrap;
     flex-direction: row;
+    padding-bottom: 5px;
+    background-color: rgb(245, 245, 220);
 }
 
 .content-box1{
-    font-family: Arial, sans-serif, 'Segoe UI';
+    font-family: monospace, Arial, sans-serif, 'Segoe UI';
     line-height: 1.6;
     font-size: 20px;
     align-items: center;
@@ -156,4 +168,8 @@
     align-items: center;
     text-align: center;
     width: 33.3%;
+}
+
+.footer{
+    background-color: rgba(173, 223, 173, 0.5);
 }
